@@ -1,0 +1,67 @@
+{
+  "version": "2.0",
+  "lastUpdated": "2025-01-01T00:00:00Z",
+  "config": {
+    "throneUrl": "throne.com/thegoddessaura",
+    "maxItemsPerPurchase": 1,
+    "debugMode": true,
+    "autoUpdateInterval": 3600000,
+    "forceStop": true,
+    "forceStopKey": "Alt+Shift+E"
+  },
+  "features": {
+    "autoUpdate": true,
+    "debugBox": true,
+    "offlineMode": true,
+    "emergencyStop": true
+  },
+  "timing": {
+    "addToCartDelay": 3000,
+    "checkoutDelay": 6000,
+    "paymentDelay": 7000,
+    "mainLoopInterval": 5000
+  },
+  "messages": {
+    "startup": "🚀 AuraDrainer V2.0 Started!",
+    "updateAvailable": "New version detected!",
+    "updateFailed": "Update failed, using backup",
+    "purchaseComplete": "Payment completed successfully!",
+    "errorGeneric": "An error occurred, retrying..."
+  },
+  "urls": {
+    "primary": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/remote-script.js",
+    "fallback": "https://your-backup-server.com/remote-script.js",
+    "analytics": "https://your-analytics-endpoint.com/ping"
+  },
+  "security": {
+    "obfuscated": true,
+    "corsEnabled": true,
+    "fallbackEnabled": true,
+    "maxRetries": 3,
+    "retryDelay": 5000
+  },
+  "changelog": [
+    {
+      "version": "2.0",
+      "date": "2025-01-01",
+      "changes": [
+        "Added remote loading system",
+        "Implemented auto-updates",
+        "Enhanced code obfuscation",
+        "Added offline fallback mode",
+        "Improved error handling",
+        "Better debug logging"
+      ]
+    },
+    {
+      "version": "1.0",
+      "date": "2024-12-01",
+      "changes": [
+        "Initial release",
+        "Basic automation features",
+        "Debug box functionality"
+      ]
+    }
+  ]
+}
+
